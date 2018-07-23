@@ -1,6 +1,6 @@
 # Code your prompts here!
 puts "guest name"
-guest_name = gets.chomp.captilize
+guest_name = gets.chomp.captilize!
 puts "party name"
 party_name = gets.chomp.captilize
 puts "date"
