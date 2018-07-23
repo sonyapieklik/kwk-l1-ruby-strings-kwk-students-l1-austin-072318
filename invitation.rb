@@ -2,7 +2,7 @@
 puts "Hi, you've been invited to a party! What is your name?"
 guest_name = gets.chomp.capitalize
 puts "party name"
-party_name = gets.capitalize
+party_name = gets.chomp.capitalize
 puts "date"
 date = gets.chomp.capitalize
 puts "time"
