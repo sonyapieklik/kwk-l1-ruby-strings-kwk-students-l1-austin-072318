@@ -10,9 +10,8 @@ time = gets.chomp.capitalize
 puts "host name"
 host_name = gets.chomp.capitalize
 
-# Try starting out with puts'ing a string.
-puts 
-"Dear #{guest_name},
+# Try starting out with puts'ing a string
+print"Dear #{guest_name},
  
 You are cordially invited to the #{party_name} on #{date} at #{name}. Please RSVP no later than #{date}.
  
