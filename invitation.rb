@@ -15,7 +15,7 @@ host_name = host_name.split(' ').map {|w| w.capitalize }.join(' ')
 # Try starting out with puts'ing a string
 print"Dear #{guest_name},
  
-You are cordially invited to the #{party_name} on #{date} at #{date}. Please RSVP no later than #{date}.
+You are cordially invited to the #{party_name} on #{date} at #{time}. Please RSVP no later than #{date}.
  
 Sincerely,
  
