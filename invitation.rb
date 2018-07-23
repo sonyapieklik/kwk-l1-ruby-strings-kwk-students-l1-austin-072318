@@ -1,9 +1,9 @@
 # Code your prompts here!
 puts "Hi, you've been invited to a party! What is your name?"
 guest_name = gets.chomp
-guest_name.split(' ').map {|w| w.capitalize }.join(' ')
 puts "party name"
-party_name = gets.chomp.capitalize
+party_name = gets.chomp
+party_name=party_name.split(' ').map {|w| w.capitalize }.join(' ')
 puts "date"
 date = gets.chomp.capitalize
 puts "time"
