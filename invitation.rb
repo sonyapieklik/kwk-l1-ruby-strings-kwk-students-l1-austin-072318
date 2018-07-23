@@ -10,6 +10,7 @@ puts "time"
 time = gets.chomp.capitalize
 puts "host name"
 host_name = gets.chomp.capitalize
+host_name = host_name.split(' ').map {|w| w.capitalize }.join(' ')
 
 # Try starting out with puts'ing a string
 print"Dear #{guest_name},
